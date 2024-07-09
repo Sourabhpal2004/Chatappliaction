@@ -2,9 +2,24 @@ import React, { Component } from "react";
 import Avatar from "../chatList/Avatar";
 
 export default class ChatItem extends Component {
+  // constructor(props) {
+  //   super(props);
+  // }
   constructor(props) {
     super(props);
+    // Initialize state (if needed)
+    this.state = {
+      // Add any state variables here
+    };
+    // Bind methods (if any)
+    // this.someMethod = this.someMethod.bind(this);
   }
+
+  // Example method (if needed)
+  // someMethod() {
+  //   // Method logic
+  // }
+
   render() {
     return (
       <div

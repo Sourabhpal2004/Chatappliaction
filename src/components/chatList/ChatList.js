@@ -3,6 +3,7 @@ import "./chatList.css";
 import ChatListItems from "./ChatListItems";
 
 export default class ChatList extends Component {
+  
   allChatUsers = [
     {
       image:
@@ -129,3 +130,4 @@ export default class ChatList extends Component {
     );
   }
 }
+
